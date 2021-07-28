@@ -6,6 +6,7 @@
 #include <string.h>
 
 int _printf(const char *format, ...);
+char *convnum(long int i, int b);
 
 
 #endif
