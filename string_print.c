@@ -4,7 +4,7 @@
  *@p: argument
  *Return: integer number of char
  */
-int *char_print(va_list p)
+int char_print(va_list p)
 {
 	_putchar(va_arg(p, int));
 	return (1);
