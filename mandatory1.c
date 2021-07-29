@@ -44,7 +44,7 @@ int printnum(int n)
 }
 /**
  * print_dec - prints decimals and integers
- * @ap: argument parameters
+ * @ls: argument parameters
  * Return: 1
  */
 int print_dec(va_list ls)

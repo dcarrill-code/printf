@@ -18,7 +18,7 @@ typedef struct option
 {
 	char *op;
 	int (*f)(va_list);
-}option;
+} option;
 
 int print_char(va_list ls);
 int print_string(va_list ls);

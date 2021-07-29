@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * print_c - prints characters
- * @ap: argument parameters
+ * print_char - prints characters
+ * @ls: argument parameters
  * Return: 1
  */
 int print_char(va_list ls)
@@ -10,8 +10,8 @@ int print_char(va_list ls)
 	return (1);
 }
 /**
- * print_s - prints strings
- * @ap: argument parameter
+ * print_string - prints strings
+ * @ls: argument parameter
  * Return: 1
  */
 int print_string(va_list ls)
@@ -27,8 +27,8 @@ int print_string(va_list ls)
 	return (i);
 }
 /**
- * print_p - print %
- * @ap: argument parameters
+ * print_prtg - print %
+ * @ls: argument parameters
  * Return: 1
  */
 int print_prtg(va_list ls)
