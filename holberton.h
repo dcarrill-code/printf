@@ -3,24 +3,27 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <stdio.h>
 
 int _putchar(char c);
 int _printf(const char *format, ...);
-int char_print(va_list p);
-int string_print(va_list p);
-int int_print(va_list ls);
-char *convnum(long int i, int b);
+void _puts(char *str);
 /**
- * struct option - Function call structure.
- *
- * @op: Option.
- * @f: Function.
+ * struct option - structure for diferent types of cases
+ * @op: option specifier.
+ * @f: Function pointer.
  */
+
 typedef struct option
 {
-	char op;
+	char *op;
 	int (*f)(va_list);
 }option;
-int (*get_op_func(char s))(va_list);
+
+int print_char(va_list ls);
+int print_string(va_list ls);
+int print_prtg(va_list ls);
+int printnum(int n);
+int print_dec(va_list ls);
 
 #endif
