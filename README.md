@@ -45,4 +45,4 @@ This proyect has three branches: main, dcarrill-code and yessbertel.  **main** c
 
 ## About
 
-This project was created by Team VI -  [Yessica Bertel](https://www.instagram.com/yessbertel/)  and  [Dickson Carrillo](https://github.com/dcarrill-code).
+This project was created by -  [Yessica Bertel](https://www.instagram.com/yessbertel/)  and  [Dickson Carrillo](https://github.com/dcarrill-code).
