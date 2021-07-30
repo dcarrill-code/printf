@@ -40,8 +40,8 @@ This proyect has three branches: main, dcarrill-code and yessbertel.  **main** c
 -   Function returns  `-1`  upon error and  `(null)`  if a string argument is  `NULL`
 
 ## Example Usage
-`_printf("Let's try to printf a simple sentence.\n");` *prints "Let's try to printf a simple sentence." followed by a new line.*
-`_printf("Negative:[%d]\n", -762534);` *prints "Negative:[-762534]".*
+- `_printf("Let's try to printf a simple sentence.\n");` *prints "Let's try to printf a simple sentence." followed by a new line.*
+- `_printf("Negative:[%d]\n", -762534);` *prints "Negative:[-762534]".*
 
 ## About
 
