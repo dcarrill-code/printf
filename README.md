@@ -27,10 +27,10 @@ This proyect has three branches: main, dcarrill-code and yessbertel.  **main** c
 
 ## Format Specifiers
 
--**funtion print_char**: prints a character and his format specifier is %c
--**funtion print_string**: prints a character and his format specifier is %s
--**funtion print_prtg**: prints a percentage and his format specifier is %%
--**funtion print_dec**: prints decimals and integers and his format specifier is %d %i
+- **funtion print_char**: prints a character and his format specifier is %c
+- **funtion print_string**: prints a character and his format specifier is %s
+- **funtion print_prtg**: prints a percentage and his format specifier is %%
+- **funtion print_dec**: prints decimals and integers and his format specifier is %d %i
 
 ## Usage
 
