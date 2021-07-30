@@ -1,0 +1,46 @@
+% _Printf(1) _printf 1.0
+% Dickson Carrillo - Yessica Bertel
+% 29 July 2021
+
+# NAME
+_printf - print a string with specific options for input
+
+# SYNOPSIS
+**_printf** [*OPTION*]\
+**_printf** *PATTERN*
+
+# DESCRIPTION
+**_printf** This code is able to print a string into the screen with
+specific characters as options that let the user customize the output
+as (s)he wants with the especial character '%'.
+
+## Options avaliable
+**i**
+: This option prints a string of numbers in base 10
+
+**d**
+: This option also prints a string of numbers
+
+**c**
+: This option print on the screen a single character
+
+**s**
+: This option let the user print a specific string
+
+# OPTIONS
+**-h**, **--help**
+: Displays a friendly help message.
+
+**-v**, **--version**
+: Displays the software version.
+
+# EXAMPLES
+**Input**
+: _printf("This is an example:");
+
+**Output**
+: This is an example:
+
+# EXIT VALUES
+The number of characters counted
+
